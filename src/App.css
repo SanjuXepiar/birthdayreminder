@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+.title {
+  border: 2px brown solid;
+}
+.img {
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+}
+.sectionCentre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  margin-left: 20px;
+  text-align: left;
+}
