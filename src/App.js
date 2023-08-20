@@ -16,8 +16,8 @@ function App() {
             <div className="sectionCentre">
               <img className="img" key={id} src={image} alt={name} />
               <div className="footer">
-                <h3> {name}</h3>
-                <p> {age} years</p>
+                <h3 className="name"> {name}</h3>
+                <h4> {age} years</h4>
               </div>
             </div>
           );

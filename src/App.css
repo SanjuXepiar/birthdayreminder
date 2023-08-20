@@ -2,7 +2,7 @@
   text-align: center;
 }
 .title {
-  border: 2px brown solid;
+  border-bottom: 2px brown solid;
 }
 .img {
   height: 85px;
@@ -17,4 +17,24 @@
 .footer {
   margin-left: 20px;
   text-align: left;
+}
+.section {
+  background: rgb(222, 237, 245);
+  width: 400px;
+  margin: 0 auto;
+  border: 2px skyblue solid;
+}
+.btn {
+  font-weight: bold;
+  background: skyblue;
+  color: white;
+  padding: 0 5px 0 5px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+.btn:hover {
+  color: blue;
+  border: 2px red solid;
+  padding-left: 15px;
+  padding-right: 15px;
 }
